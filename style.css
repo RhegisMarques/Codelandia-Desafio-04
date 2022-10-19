@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap");
+
 *{
   margin: 0;
   box-sizing: border-box;
@@ -5,4 +7,347 @@
 
 html, body{
   width: 100%;
+}
+
+.header{  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.headerLeft{
+
+  margin-top: 184px;
+  margin-left: 160px;
+    
+    
+}
+
+.headerRight{
+  margin-top: 113px;
+  margin-right: 177px;
+
+}
+
+.headerText{
+  padding-bottom: 39px;
+}
+
+.headerText > h2{
+  margin-bottom: 7px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #1A202C;
+}
+
+.headerText > h1{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  
+  color: #1A202C;
+}
+
+
+label{    
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #1A202C;
+}
+
+.form input{
+  margin-top: 10px;
+  padding-left: 20px;
+  margin-bottom: 11px;
+  width: 350px;
+  height: 50px;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+
+  /*text*/
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #1A202C;
+}
+
+.enterButton {    
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: 350px;
+  height: 50px;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  background: #04C45C;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+} 
+
+.googleButton{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;  
+  width: 350px;
+  height: 50px;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  background: #1A202C;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+}
+
+img{  
+ margin-right: 11px;
+  
+}
+
+
+.textB{
+  padding-top: 28px;
+  padding-bottom: 26px;
+}
+
+.textB > span{
+  
+  margin-left: 5px;
+  margin-right: 94px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.textB > a{    
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #2B6CB0;
+  
+}
+
+.signIn{ 
+  padding-top: 138px;
+  text-align: center;
+}
+
+.signIn > span{ 
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none;
+  color: #1A202C;
+}
+
+.signIn > a{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none;
+
+  color: #2B6CB0;
+}
+
+
+
+@media (max-width: 420px ){
+
+  .headerLeft img{
+    display: none;
+    
+  }
+
+  .headerRight{
+    padding: 100px 32px; 
+
+  }
+
+  .headerText{
+    padding-bottom: 39px;
+  }
+
+  .headerText > h2{
+    margin-bottom: 7px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #1A202C;
+  }
+
+  .headerText > h1{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #1A202C;
+  }
+
+  
+  label{    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #1A202C;
+  }
+
+  .form input{
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 11px;
+    width: 350px;
+    height: 50px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+
+    /*text*/
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1A202C;
+  }
+  .enterButton {    
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 350px;
+    height: 50px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    background: #04C45C;
+    
+    /*text*/
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  
+    color: #FFFFFF;
+  } 
+  
+  .googleButton{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  
+    width: 350px;
+    height: 50px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    background: #1A202C;
+    
+    /*text*/
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+  }
+
+  img{  
+   margin-right: 11px;
+    
+  }
+  
+  .textB{
+    padding-top: 28px;
+    padding-bottom: 26px;
+  }
+
+  .textB > span{    
+    margin-left: 5px;
+    margin-right: 94px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .textB > a{    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #2B6CB0;
+    
+  }
+
+  .signIn{ 
+    padding-top: 138px;
+    text-align: center;
+  }
+
+  .signIn > span{ 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: #1A202C;
+  }
+
+  .signIn > a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #2B6CB0;
+  }
+
 }
