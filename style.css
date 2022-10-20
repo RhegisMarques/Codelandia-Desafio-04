@@ -1,31 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap");
 
 *{
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 html, body{
   width: 100%;
+  
 }
 
 .header{  
+  height: 100vh;  
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   
 }
-.headerLeft{
 
-  margin-top: 184px;
-  margin-left: 160px;
-    
+.headerLeft{
+  height: 774px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
     
 }
 
 .headerRight{
-  margin-top: 113px;
-  margin-right: 177px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 774px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
@@ -69,7 +78,7 @@ label{
   margin-top: 10px;
   padding-left: 20px;
   margin-bottom: 11px;
-  width: 350px;
+  width: 100%;
   height: 50px;
   border: 1px solid #E8E8E8;
   border-radius: 5px;
@@ -87,7 +96,7 @@ label{
 .enterButton {    
   margin-bottom: 15px;
   cursor: pointer;
-  width: 350px;
+  width: 100%;
   height: 50px;
   border: 1px solid #E8E8E8;
   border-radius: 5px;
@@ -102,12 +111,9 @@ label{
   color: #FFFFFF;
 } 
 
-.googleButton{
-  display: flex;  
-  justify-content: center;
-  align-items: center;
+.googleButton{  
   cursor: pointer;  
-  width: 350px;
+  width: 100%;
   height: 50px;
   border: 1px solid #E8E8E8;
   border-radius: 5px;
@@ -130,13 +136,26 @@ img{
 
 .textB{
   padding-top: 28px;
-  padding-bottom: 26px;
+  padding-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.textB span{
+margin-left: 20px;
+
+}
+
+
+input[type = "checkbox"]{
+  display: none;
+  
+  
 }
 
 .textB > span{
-  
-  margin-left: 5px;
-  margin-right: 94px;
+  margin-right: 11px;    
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -144,7 +163,8 @@ img{
   line-height: 17px;
 }
 
-.textB > a{    
+
+.textB > a{
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -154,6 +174,8 @@ img{
   color: #2B6CB0;
   
 }
+
+
 
 .signIn{ 
   padding-top: 138px;
@@ -187,13 +209,20 @@ img{
 
 @media (max-width: 420px ){
 
-  .headerLeft img{
+  .header{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .headerLeft {
     display: none;
     
   }
 
   .headerRight{
-    padding: 100px 32px; 
+    height: 774px;  
 
   }
 
@@ -237,7 +266,6 @@ img{
     margin-top: 10px;
     padding-left: 20px;
     margin-bottom: 11px;
-    width: 350px;
     height: 50px;
     border: 1px solid #E8E8E8;
     border-radius: 5px;
@@ -252,9 +280,8 @@ img{
     color: #1A202C;
   }
   .enterButton {    
-    margin-bottom: 15px;
-    cursor: pointer;
-    width: 350px;
+    
+    cursor: pointer;        
     height: 50px;
     border: 1px solid #E8E8E8;
     border-radius: 5px;
@@ -270,12 +297,8 @@ img{
     color: #FFFFFF;
   } 
   
-  .googleButton{
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;  
-    width: 350px;
+  .googleButton{    
+    cursor: pointer;       
     height: 50px;
     border: 1px solid #E8E8E8;
     border-radius: 5px;
@@ -291,19 +314,13 @@ img{
     color: #FFFFFF;
   }
 
+  
   img{  
    margin-right: 11px;
     
   }
   
-  .textB{
-    padding-top: 28px;
-    padding-bottom: 26px;
-  }
-
-  .textB > span{    
-    margin-left: 5px;
-    margin-right: 94px;
+  .textB > span{   
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -311,7 +328,7 @@ img{
     line-height: 17px;
   }
 
-  .textB > a{    
+  .textB > a{   
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
