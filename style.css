@@ -21,7 +21,7 @@ html, body{
 }
 
 .headerLeft{
-  height: 774px;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;    
@@ -29,9 +29,6 @@ html, body{
 }
 
 .headerRight{
-  padding-left: 30px;
-  padding-right: 30px;
-  height: 774px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,19 +140,19 @@ img{
 }
 
 .textB span{
-margin-left: 20px;
+margin-left: 10px;
 
 }
 
 
 input[type = "checkbox"]{
-  display: none;
+  display: "";
   
   
 }
 
 .textB > span{
-  margin-right: 11px;    
+      
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -222,7 +219,9 @@ input[type = "checkbox"]{
   }
 
   .headerRight{
-    height: 774px;  
+    height: 774px;
+    padding-left: 30px;
+    padding-right: 30px;  
 
   }
 
