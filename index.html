@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="header">
-      <div class="headerLeft">
-        <img src="/img/About_us_page.svg"> 
-      </div> 
 
-      <div class="headerRight">
-        <div class="headerText">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="half left">
+      <div class="container-left">
+        <img src="./img/image.svg">
+      </div>
+    </div>
+
+    <div class="half right">
+      <div class="container-right">
+        <div class="group-text">
           <h2>Bem vindo de volta</h2>
           <h1>Faça login na sua conta</h1>
         </div>
-
-        <div class="form">
-          <form action="" method="post"></form>
+        
+        <form>
           <label for="email">E-mail</label><br />
-          <input type="email" name="email" id="" placeholder="codelandia@gmail.com"/><br />
+          <input type="email" name="email" id="" placeholder="exemplo@email.com" /><br />
           <label for="senha">Senha</label><br />
           <input type="password" name="" id="" placeholder="*********" /><br />
-        </div>
+          <div class="textB">
+            <input type="checkbox" name="Lembrar de min" />
+            <div class="text-check">
+              <h2>Lembrar de min</h2>
+              <a href="">Esqueceu sua senha?</a>
+            </div>
+          </div>
+        </form>
 
-        <div class="textB">
-          <label>
-            <input type="checkbox"/>
-            <span >Lembrar de min</span>
-          </label>
-
-          <a href="">Esqueceu sua senha?</a> 
-        </div>
-
-        
-        <button class="enterButton">
-          <span>Entrar</span> 
+      <div class="bt-n">
+        <button class="enter-btn">Entrar na conta </button>
+        <button class="google-btn">
+          <div class="logo"></div>Ou faça login com o Google         
         </button>
-          
-          <button class="googleButton">
-            <img src="/img/icon_Google.svg" alt="">                     
-            <span>Ou faça login com o Google</span>                          
-          </button>
-       
-
-        <div class="signIn">
-          <span>Não tem uma conta? </span>
-          <a href=""> Cadastre-se</a>          
-        </div>  
       </div>
+      
+      <footer>
+        <h2>Não tem uma conta? </h2>
+        <a href="">Cadastre-se</a>
+      </footer>
+      
     </div>
-            
-  </body>
+  </div>
+  </div>
+</body>
+
 </html>
