@@ -17,21 +17,11 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  padding: 80px 24px;
+  padding: 123px 24px;
 }
 
 .left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  margin-bottom: 20px;
-
-  >img {
-    width: 200px;
-    display: block;
-  }
-
+  display: none;
 
 }
 
@@ -160,7 +150,6 @@ form {
 }
 
 
-
 footer {
   display: flex;
   justify-content: center;
@@ -179,7 +168,7 @@ footer {
 
   >a {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-decoration: none;
@@ -194,11 +183,9 @@ footer {
   /* Tablet*/
 
   .container {
-    padding: 150px 184px;
+    padding: 205px 184px;
 
-    img {
-      width: 330px;
-    }
+
   }
 
 
@@ -210,12 +197,17 @@ footer {
   /* Desktop*/
 
   .container {
-    margin: 0 ;
+    margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background: linear-gradient(to right, #F3FFF2 50%, #ffffff 50%);
+
+    img {
+      width: 400px;
+    }
+
   }
 
   .half {
@@ -225,19 +217,17 @@ footer {
 
   .left {
     display: flex;
-    justify-content: center;
-    
+    align-items: center;
+
   }
 
-  
 
-  
   .right {
     display: flex;
     align-items: center;
 
   }
 
-    
+
 
 }
